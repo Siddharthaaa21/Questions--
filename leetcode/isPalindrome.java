@@ -1,6 +1,6 @@
 
-class isPalindrome {
-    public boolean result(int x) {
+class Solution {
+    public boolean isPalindrome(int x) {
         StringBuffer str = new StringBuffer(Interger.toString(x));
 
         if ((str.reverse().toString().equals(str.toString())))
