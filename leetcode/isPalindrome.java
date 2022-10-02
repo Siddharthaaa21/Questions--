@@ -6,7 +6,7 @@ class Solution {
         if ((str.reverse().toString().equals(str.toString())))
             return (true);
         else
-            return false;
+            return false;//will work on the time usage.
     }}//this is not the fastest way tho.
  
 //class Solution {
